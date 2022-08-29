@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Landing Page Project</title>
+        <title>8h Landing Project</title>
       </Head>
 
       <Header />

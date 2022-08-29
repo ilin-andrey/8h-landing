@@ -13,7 +13,7 @@ export function Footer(): JSX.Element {
       <div className={styles.column}>
         <NarrowLogo />
         <div className={styles.copyrights}>
-          All rights reserved. Copyright @ Landing Page Project, {`${YEAR}`}
+          All rights reserved. Copyright @ 8h Landing Project, {`${YEAR}`}
         </div>
       </div>
 
