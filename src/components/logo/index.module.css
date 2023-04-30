@@ -1,0 +1,23 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 17rem;
+  min-height: 4rem;
+  background: #fff;
+  color: var(--color-text-black);
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.big {
+  composes: logo;
+
+  font-size: 3.5rem;
+
+  min-width: 24rem;
+  max-width: 24rem;
+  min-height: 32rem;
+  max-height: 32rem;
+}

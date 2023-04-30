@@ -1,0 +1,72 @@
+.container {
+  padding: 5rem 7.5rem;
+}
+
+.row {
+  display: flex;
+  margin: 2rem 0 0 0;
+  gap: 10rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem 0;
+  max-width: 28rem;
+  min-width: 28rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container input,
+.container textarea {
+  appearance: none;
+  color: var(--color-text-white);
+  background: var(--color-bg-black);
+  padding: 1.25rem;
+  border: 1px solid var(--color-bg-black);
+  font-size: 1rem;
+  font-family: var(--font-family);
+}
+
+.container textarea {
+  resize: vertical;
+}
+
+.container input::placeholder,
+.container textarea::placeholder {
+  color: var(--color-text-white);
+  font-style: normal;
+  font-size: 14px;
+  font-family: var(--font-family);
+  opacity: 0.5;
+}
+
+.address-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.address-container .address-block > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.address-container .address-block > div:nth-child(2) {
+  padding: 0 0 0 1.5rem;
+  line-height: 1.5rem;
+}

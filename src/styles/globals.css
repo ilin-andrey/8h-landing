@@ -1,0 +1,43 @@
+:root {
+  --color-bg-black: #0d0d0d;
+  --color-text-white: #fafafa;
+  --color-text-black: #252525;
+
+  --font-family: "Montserrat", -apple-system, sans-serif;
+
+  --linear-gradient: linear-gradient(91.54deg, #fcef00 -6.96%, #ff0d01 103.34%);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family);
+  color: var(--color-text-black);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
